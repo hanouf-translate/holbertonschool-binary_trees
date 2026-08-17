@@ -37,5 +37,8 @@ binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
 /* T2 prototype */
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
 
+/* T3 prototype */
+void binary_tree_delete(binary_tree_t *tree);
+
 
 #endif /* BINARY_TREES_H */
