@@ -31,7 +31,11 @@ void binary_tree_print(const binary_tree_t *);
 /* Task 0 prototype */
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 
-/* T0 prototype*/
+/* T1 prototype*/
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
+
+/* T2 prototype */
+binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
+
 
 #endif /* BINARY_TREES_H */
