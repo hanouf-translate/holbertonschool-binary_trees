@@ -49,4 +49,7 @@ int binary_tree_is_root(const binary_tree_t *node);
 /* T10 prototype */
 size_t binary_tree_depth(const binary_tree_t *tree);
 
+/* T11 prototype */
+size_t binary_tree_size(const binary_tree_t *tree);
+
 #endif /* BINARY_TREES_H */
