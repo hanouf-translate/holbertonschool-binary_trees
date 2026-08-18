@@ -52,4 +52,7 @@ size_t binary_tree_depth(const binary_tree_t *tree);
 /* T11 prototype */
 size_t binary_tree_size(const binary_tree_t *tree);
 
+/* T12 prototype */
+size_t binary_tree_leaves(const binary_tree_t *tree);
+
 #endif /* BINARY_TREES_H */
