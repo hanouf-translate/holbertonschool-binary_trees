@@ -67,4 +67,7 @@ int binary_tree_is_full(const binary_tree_t *tree);
 /* T16 prototype */
 int binary_tree_is_perfect(const binary_tree_t *tree);
 
+/* T17 prototype */
+binary_tree_t *binary_tree_sibling(binary_tree_t *node);
+
 #endif /* BINARY_TREES_H */
