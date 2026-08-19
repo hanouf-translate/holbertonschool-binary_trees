@@ -49,6 +49,9 @@ int binary_tree_is_root(const binary_tree_t *node);
 /* T6 prototype */
 void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int));
 
+/* T7 prototype */
+void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int));
+
 /* T10 prototype */
 size_t binary_tree_depth(const binary_tree_t *tree);
 
