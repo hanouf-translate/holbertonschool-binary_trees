@@ -55,6 +55,9 @@ void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int));
 /* T8 prototype */
 void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int));
 
+/* T9 prototype */
+size_t binary_tree_height(const binary_tree_t *tree);
+
 /* T10 prototype */
 size_t binary_tree_depth(const binary_tree_t *tree);
 
